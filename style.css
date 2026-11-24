@@ -1,0 +1,45 @@
+.title {
+    font-family: arial;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.body {
+   font-family: sans-serif;
+   font-size: 10px;
+   border-radius: 12px;
+   padding: 28px;
+}
+.cards {
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    font-size: 14px;
+    display: grid;
+    border-radius: 12px;
+}
+
+.cards a {
+    padding: 28px 16px;
+    color: #ffffff;
+    background: #2563eb;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.para {
+    font-family: arial;
+    font-size: 15px;
+    margin-top: 24px;
+}
+
+.btn a {
+    border-radius: 12px;
+    padding: 12px 24px;
+}
